@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.405015">
+<testcase classname="" name="_2" time="8.405015">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)&#13;&#10;&#9;at org.stepdefinition.StepDefnition.user_have_to_enter_invalid_email_and_validpass(StepDefnition.java:65)&#13;&#10;&#9;at ✽.User have to enter invalid email and validpass(file:src/test/resources/FeatureFile/Login.feature:28)&#13;&#10;"><![CDATA[Given User have to enter fb login page......................................passed
+And User have to maxmize the window.........................................passed
+When User have to enter invalid email and validpass.........................failed
+And User have to click buttton..............................................skipped
+Then User have to invalid credentials.......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at org.stepdefinition.StepDefnition.user_have_to_enter_invalid_email_and_validpass(StepDefnition.java:65)
+	at ✽.User have to enter invalid email and validpass(file:src/test/resources/FeatureFile/Login.feature:28)
+]]></failure>
+</testcase>
+</testsuite>
